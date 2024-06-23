@@ -1,0 +1,24 @@
+.todo {
+    display: flex;
+    background-color: lightcyan;
+    align-items: center;
+    padding: 10px;
+    width:  200px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.todo p{
+    margin-right: auto;
+}
+.todo span{
+    background-color: red;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.todo .edit{
+    margin-left: 10px;
+    background-color: blue !important;
+}
